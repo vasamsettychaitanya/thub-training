@@ -1,0 +1,106 @@
+.a{
+    height: 800px;
+    width: 1510px;
+    background-color: white;
+    float: left;
+}
+.b{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.c{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(237, 242, 244);
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.d{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(245, 239, 238);
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+}
+.e{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: relative;
+}
+.f{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: relative;
+}
+.g{
+    font-size: 315x;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: relative;
+    top: 20px;
+    background-color: rgb(178, 126, 226);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+}
+.h{
+    height: 70px;
+    width: 70px;
+    background: url("swot.png");
+    background-size: cover;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+}
+.i{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: relative;
+    left: 30px;
+}
+.j{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: relative;
+    left: 30px;
+}
+.k{
+    font-size: 315x;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: rgb(178, 126, 226);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+}
+.l{
+    height: 110px;
+    width: 300px;
+    background-color:  rgb(237, 242, 244);
+    float: left;
+}

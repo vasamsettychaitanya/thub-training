@@ -1,0 +1,53 @@
+.sidhu{
+    font-size: 35px;
+    background-color: blueviolet;
+    border: 2px solid yellowgreen;
+    border-radius: 60px;
+    width: 600px;
+}
+#main{
+    height: 100px;
+    width: 550px;
+    background-color: brown;
+    border: 2px solid yellow;
+    border-radius: 50px;
+}
+.nandu{
+    font-size: 60px;
+
+}
+span{
+    font-size: 35px;
+    color: goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid pink;
+    border-radius: 60px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]{
+    color: blueviolet;
+    border:2px solid yellow;
+    height: 100px;
+}
+input[type="checkbox"]{
+    height: 50px;
+    width: 50px;
+}
+input[type="number"]{
+    color: pink;
+}
+a[href]{
+    color: red;
+    border: 2px solid green;
+}
+a:hover{
+   background-color: yellowgreen;
+
+}
+a:active{
+    color: blue;
+}

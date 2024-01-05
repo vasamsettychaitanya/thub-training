@@ -1,0 +1,140 @@
+.a{
+    height: 700px;
+    width: 1480px;
+    background-color: lightgray;
+}
+.b{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    position: relative;
+    top: 120px;
+    left: 300px;
+    float: left;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    position: relative;
+    top: 120px;
+    left: 350px;
+    float: left;
+}
+.d{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    float: left;
+}
+.b1{
+    position: relative;
+    top: 60px;
+    left: 80px;
+}
+.b2{
+    position: relative;
+    top: 70px;
+    left: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+.b3{
+    height: 1px;
+    width: 250px;
+    background-color: blue;
+    position: relative;
+    top: 80px;
+}
+.b4{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    background-color: blue;
+    border-radius: 50px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+.c1{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+.c2{
+    position: relative;
+    top: 70px;
+    left: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+.c3{
+    height: 1px;
+    width: 250px;
+    background-color: blue;
+    position: relative;
+    top: 80px;
+}
+.c4{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    background-color: blue;
+    border-radius: 50px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+.d1{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+.d2{
+    position: relative;
+    top: 70px;
+    left: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+.d3{
+    height: 1px;
+    width: 250px;
+    background-color: blue;
+    position: relative;
+    top: 80px;
+}
+.d4{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    background-color: blue;
+    border-radius: 50px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+i{
+    height: 80px;
+    width: 90px;
+    background-color: blue;
+    font-size: 70px;
+    color: whitesmoke;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    text-align: center;
+}

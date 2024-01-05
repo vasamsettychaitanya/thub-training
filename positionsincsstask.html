@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 700px;
+            width: 800px;
+            border: 2px solid black;
+        }
+        .part1{
+            height: 400px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+        }
+        .part2{
+            height: 400px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+        }
+        .part3{
+            height: 400px;
+            width: 198px;
+            border: 1px solid black;
+            float: left;
+        }
+        .part4{
+            height: 400px;
+            width: 195px;
+            border: 1px solid black;
+            float: right;
+        }
+        .part11{
+            height: 320px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+    
+        }
+        .part12{
+            height: 320px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+    
+        }
+        .part13{
+            height: 320px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+    
+        }
+        .part14{
+            height: 320px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+    
+        }
+        
+        .part111{
+            height: 106px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part112{
+            height: 106px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: lightgreen;
+
+        }
+        .part113{
+            height: 105px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part1111{
+            height: 106px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part1122{
+            height: 106px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        .part1133{
+            height: 105px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part11111{
+            height: 105px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part11222{
+            height: 105px;
+            width: 70px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            position: absolute;
+            left: 530px;
+        }
+        .part11333{
+            height: 105px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part111111{
+            height: 105px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .part112222{
+            height: 105px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .parta{
+            height: 300px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px; 
+        }
+        .x{
+            height: 400px;
+            width: 800px;
+            border: 1px solid black;
+        } 
+        .az{
+            height: 298px;
+            width: 800px;
+            border: 1px solid black;
+        }   
+        .a1{
+            height: 298px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+        }  
+        .a11{
+            height: 298px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+        }  
+        .a111{
+            height: 298px;
+            width: 198px;
+            border: 1px solid black;
+            float: left;
+            
+        }  
+        .a1111{
+            height: 298px;
+            width: 195px;
+            border: 1px solid black;
+            float: right;
+        }
+        .am{
+            height: 200px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+            overflow-y: scroll; 
+        }   
+        .am1{
+            height: 200px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+            position: sticky;
+            top: 0px;
+            overflow-y: scroll;
+        }   
+        .am2{
+            height: 200px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+            overflow-x: scroll;
+        }   
+        .am3{
+            height: 200px;
+            width: 180px;
+            border: 1px solid black;
+            margin: 10px;
+            overflow-x: scroll;
+        }   
+        .amn{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            position: sticky;
+            top: 10px;
+           
+        }
+        .amn1{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .amn2{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .amno{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            position: sticky;
+            bottom: 10px;
+            opacity: 0.5;
+        }
+        .amno1{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+        }
+        .amno2{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            position: sticky;
+            bottom: 10px;
+            top: 65px;
+        }
+        .amnop{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            position: sticky;
+            left: 10px;
+            top: 0px;
+        }
+        .amnop1{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            float: left;
+            opacity: 0.5;
+        }
+        .amnop2{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            float:  left ;
+            opacity: 0.5;
+        }
+        .amnop3{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+            
+        }
+        .amnopq{
+            height: 100px;
+            width: 100px;
+
+        }
+      
+        .amnopq1{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            
+            opacity: 0.5;
+        }
+        .amnopq2{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            float: left;
+            opacity: 0.5;
+        }
+        .amnopq34{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: blue;
+            opacity: 0.5;
+            float: right;
+            
+        }
+        .chaitu{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            position: fixed;
+            background-color: lightgreen;
+            right: 0px;
+            top: 0px;
+        }
+</style>
+</head>
+<body>
+    <div class="parent">
+        <div class="x">
+            <div class="part1">
+                <h4>position : static</h4>
+                <div class="part11">
+                    <div class="part111"></div>
+                    <div class="part112">static</div>
+                    <div class="part113"></div>
+                </div>
+            </div>
+            <div class="part2">
+                <h4>position : relative</h4>
+                <div class="part12">
+                    <div class="part1111"></div>
+                    <div class="part1122">relative</div>
+                    <div class="part1133"></div>
+                </div>
+            </div>
+            <div class="part3">
+                <h4>position : absolute</h4>
+                <div class="part13">
+                    <div class="part11111"></div>
+                    <div class="part11222">absolute</div>
+                    <div class="part11333"></div>
+                </div>
+            </div>
+            <div class="part4">
+                <h4>position : fixed</h4>
+                <div class="part14">
+                    <div class="part111111"></div>
+                    <div class="part112222"></div>
+                </div>
+            </div>
+        </div>
+        <div class="az">
+            <div class="a1">
+                <h4>position: sticky(top)</h4>
+                <div class="am" >
+                    <div class="amn">Sticky(top)</div>
+                    <div class="amn1"></div>
+                    <div class="amn2"></div>
+                </div>
+            </div>
+            <div class="a11">
+                <h4>position: sticky(bottom)</h4>
+                <div class="am1">
+                    <div class="amno2">Sticky(bottom)</div>
+                    <div class="amno"></div>
+                    <div class="amno1"></div>
+                   
+                </div>
+            </div>
+            <div class="a111">
+                <h4>position: sticky(left)</h4>
+                <div class="am2">
+                    
+                    <div class="amnop1"></div>
+                    <div class="amnop2"></div>
+                    <div class="amnop3"></div>
+                </div>
+            </div>
+            <div class="a1111">
+                <h4>position: sticky(right)</h4>
+                <div class="am3">
+                    
+                    <div class="amnopq1"></div>
+                    <div class="amnopq2"></div>
+                    <div class="amnopq34"></div>
+                </div>
+            </div>
+        </div>
+        <div class="chaitu"> fixed</div>
+    </div>
+</body>
+</html>

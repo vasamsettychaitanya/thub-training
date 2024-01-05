@@ -1,0 +1,153 @@
+.a{
+    height: 1200px;
+    width: 1500px;
+    background-color: rgb(155, 84, 222);
+    float: left;
+}
+.b{
+    height: 400px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.c{
+    height: 200px;
+    width: 250px;
+    background: url("");
+    background-size: cover;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.d{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    float: left;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.e{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(141, 61, 216);
+    position: relative;
+    top: 20px;
+}
+.f{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(141, 61, 216);
+    position: relative;
+    top: 30px;
+}
+.g{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    background-color: rgb(152, 65, 234);
+    color: white;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    letter-spacing: 1px;
+}
+.h{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 680px;
+    letter-spacing: 2px;
+}
+.i{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 530px;
+}
+.j{
+    height: 400px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.k{
+    height: 400px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.l{
+    height: 200px;
+    width: 250px;
+    background: url("");
+    background-size: cover;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.m{
+    height: 200px;
+    width: 250px;
+    background: url("cloud.jpg");
+    background-size: cover;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.n{
+    height: 200px;
+    width: 250px;
+    background: url("happy.jpg");
+    background-size: cover;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.o{
+    height: 200px;
+    width: 250px;
+    background: url("market.jpg");
+    background-size: cover;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.p{
+    height: 200px;
+    width: 250px;
+    background: url("podcast.jpg");
+    background-size: cover;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
